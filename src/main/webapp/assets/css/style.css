@@ -1,0 +1,117 @@
+/* General body styling */
+body {
+    background: #f8f8f8;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title section above header */
+.header-title {
+    background-color: #0077cc; /* Blue background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.header-title h1 {
+    margin: 5px 0;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Green header with centered nav */
+#header {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+/* Navigation menu */
+#header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header ul li {
+    margin: 0 20px;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#header ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Tagline/content section */
+#tagline {
+    background: linear-gradient(to bottom right, #a8d5e2, #c1e1c1);
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#footer {
+    background-color: #0077cc; /* Blue */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+#footer p {
+    margin: 0;
+}
+
+/* Optional: Responsive tweaks */
+@media (max-width: 768px) {
+    #header ul {
+        flex-direction: column;
+    }
+
+    #header ul li {
+        margin: 10px 0;
+    }
+
+    #tagline {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .header-title h1 {
+        font-size: 24px;
+    }
+}
+#tagline {
+    background: linear-gradient(to bottom right, #a8d5e2, #c1e1c1);
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
